@@ -1,13 +1,14 @@
 {
   "name": "@rho-softwares/cljsdt-toolchain",
   "version": "0.0.0",
-  "description": "The tools a cljsdt project runs: Idris 2 (the verifier), clj-kondo (the linter), shadow-cljs (build --browser). Installed with the project by `npx cljsdt create`.",
+  "description": "The tools a cljsdt project runs: Idris 2 (the verifier), clj-kondo (the linter), esbuild (build --script), shadow-cljs (build --browser). Installed with the project by `npx cljsdt create`.",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rho-softwares/cljsdt-toolchain.git"
   },
   "dependencies": {
+    "esbuild": "^0.28.2",
     "shadow-cljs": "^3.5.5"
   },
   "optionalDependencies": {
